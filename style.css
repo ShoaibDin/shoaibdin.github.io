@@ -87,11 +87,11 @@ nav .brand-heading {
 .section h1 {
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Lustria', georgia, serif;
     letter-spacing: 3.51px;
 }
 .section h1.name {
     color: #811818;
+    font-family: 'Lustria', georgia, serif;
 }
 .section .center, section ,left {
     flex: 1;
