@@ -85,12 +85,15 @@ nav .brand-heading {
     padding: 20px 0;
 }
 .section h1 {
+    color: #811818;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 3.51px;
 }
-.section h1.name {
+h2 {
     color: #811818;
+}
+.section h1.name {
     font-family: 'Lustria', georgia, serif;
 }
 .section .center, section ,left {
