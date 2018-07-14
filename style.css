@@ -73,15 +73,13 @@ nav a {
 }
 nav img {
     height: 34px;
-    border-radius: 50%;
-    display: inline-block;
-    /* margin-bottom: -5px; */
 }
 nav .brand-heading {
     font-size: 1.5rem;
 }
 .section {
-    background-color: #F5F1EA;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #dddddd;
     padding: 20px 0;
 }
 .section h1 {
@@ -92,9 +90,6 @@ nav .brand-heading {
 }
 h2 {
     color: #811818;
-}
-.section h1.name {
-    font-family: 'Lustria', georgia, serif;
 }
 .section .center, section ,left {
     flex: 1;
@@ -107,7 +102,6 @@ h2 {
     margin-bottom: 40px;
     
     display: block;
-    border-radius: 49%;
 }
 ul.article-list {
     padding: 5px 0;
@@ -118,10 +112,18 @@ ul.article-list li:hover a {
     padding: 15px 0;
     text-decoration: underline;
 }
-.index-main h2 {
-    margin: 20px 0;
-    color: #811818;
-    text-decoration: underline;
+img.bullet {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#cycle embed {
+    margin-bottom: -23px;
+    margin-left: 10px;
+}
+.cycle {
+    float: left;
+    margin-right: 13px;
+    background: #F5F1EA;
 }
 div.certificate {
     width: 650px;
