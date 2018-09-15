@@ -73,6 +73,9 @@ ul {
             aispe
    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 */
+.aispe {
+    padding: 0 20px 20px 20px;
+}
 .aispe .bismillah {
     color: green;
     font-style: italic;
