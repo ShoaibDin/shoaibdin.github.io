@@ -1,0 +1,148 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            general
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+
+body {
+    font-size: 1.15rem;
+}
+.text-align-center {
+    text-align: center;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            home
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+
+ul {
+    list-style: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    padding-top: 30px;
+}
+.poetry {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    text-align: center;   
+    padding-top: 90px;
+}
+.images {
+    grid-column-start: 4;
+    grid-column-end: 11;
+
+    /* padding-left: 80px; */
+    padding-top: 80px;
+}
+.images .name {
+    margin-right: 20px;
+}
+.essays {
+    grid-column-start: 3;
+    grid-column-end: 11;
+
+    font-size: 1.5rem;
+}
+.essays li {
+    margin-top: 20px;
+}
+.essays li a {
+    text-decoration: none;
+}
+.essays li a .bullet {
+    margin-right: 5px;
+}
+.essays li embed {
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            aispe
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+.aispe .bismillah {
+    color: green;
+    font-style: italic;
+    font-size: 1.6rem;
+    font-family: "Monotype Corsiva";
+    font-weight: 400;
+}
+.aispe h1 {
+    font-size: 1.5rem;
+}
+.aispe blockquote {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            babusar
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+.babusar {
+    padding: 0 30px 40px 30px;
+}
+.babusar .img-center {
+    display: block;
+    margin: 0 auto;
+}
+.babusar object {
+    float: left;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            or
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+.or {
+    padding: 20px 30px 40px 30px;
+}
+.or .personal-info {
+    font-weight: bold;
+    font-size: 0.98rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            thand
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+.thand {
+    padding: 20px 30px 20px 30px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            exam
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+*/
+.exam {
+    padding: 20px 30px 20px 30px;
+}
+.exam div.certificate {
+    width: 650px;
+    margin: 20px auto;
+    border: 3px double #808080;
+    text-align: center;
+    padding: 20px;
+    outline: 2px solid #808080;
+}
+.exam div.certificate table {
+    margin: 0 auto;
+}
+.exam tr:nth-child(even) {
+    background-color: #dddddd;
+}
