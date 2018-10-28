@@ -24,21 +24,10 @@ body {
 ul {
     list-style: none;
 }
-.container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 
-    padding-top: 30px;
-}
 .poetry {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-
     text-align: center;   
-    padding-top: 90px;
+    padding: 90px 0 40px;
 }
 .images {
     grid-column-start: 4;
