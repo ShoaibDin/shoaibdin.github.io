@@ -40,6 +40,9 @@ ul {
     text-align: center;   
     padding: 90px 0 40px;
 }
+.poetry img {
+    padding-bottom: 35px;
+}
 .images {
     grid-column-start: 4;
     grid-column-end: 11;
