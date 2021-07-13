@@ -93,6 +93,12 @@ ul {
     font-style: italic;
     font-weight: bold;
 }
+.aispe blockquote:first-child, .aispe blockquote:first-child p {
+    margin-block-end: 0.5em;
+}
+.aispe blockquote:second-child, .aispe blockquote:second-child p {
+    margin-block-start: 0;
+}
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
             babusar
